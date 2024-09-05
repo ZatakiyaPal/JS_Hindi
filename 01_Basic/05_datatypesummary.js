@@ -27,6 +27,32 @@ let myObj = {
 }
 
 const myFunction = function(){
-    console.log("hello world");
+// console.log("hello world");
     
 }
+
+/* --------------------------- */
+
+// stack(primitive) , heap(non primitive)
+
+let myYoutubename = "palzatakiyadotcom"
+
+let anothername = myYoutubename
+anothername = "workwithme"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    Email: "nibhuzatakiya@gmail.com",
+    upi: "nibhu@ypl"
+}
+
+let userTwo = userOne
+
+userTwo.Email = "kishorzatakiya@gmail.com"
+
+console.log(userOne.Email);
+console.log(userTwo.Email);
+
+
