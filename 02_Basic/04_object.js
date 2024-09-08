@@ -1,15 +1,15 @@
 const tinderUser = {}
 
-tinderUser.id = "123abc"
-tinderUser.name = "samm"
-tinderUser.isLoggedIn = false
+// tinderUser.id = "123abc"
+// tinderUser.name = "samm"
+// tinderUser.isLoggedIn = false
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
 // const regularUser = {
@@ -60,4 +60,16 @@ console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 //console.log(Object.keys(tinderUser));
 
+const course = {
+    coursename : "js in hindi",
+    courseInstructor : "hitesh",
+    price : "999",
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
 
